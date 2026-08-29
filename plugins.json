@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-15T14:27:42.644209+00:00",
+  "generatedAt": "2026-08-29T16:44:30.502197+00:00",
   "source": {
     "name": "VCP 官方插件商店",
     "repository": "https://github.com/lioensky/VCPDistributedServer",
@@ -199,10 +199,10 @@
     },
     {
       "name": "NovelAIGen",
-      "displayName": "NovelAI 图片生成器",
-      "description": "通过 NovelAI API 使用 NovelAI Diffusion 模型生成高质量的动漫风格图片。支持多种模型和参数调节。",
-      "version": "1.0.0",
-      "author": "VCP-Assistant",
+      "displayName": "NovelAI 图像生成器 (全能力网关)",
+      "description": "NovelAI 六端点多渠道全参数网关。",
+      "version": "2.1.0",
+      "author": "VCP-Assistant; infinite-vector",
       "icon": "extension",
       "category": "tool",
       "downloadUrl": "https://raw.githubusercontent.com/lioensky/VCPDistributedServer/main/Plugin/NovelAIGen/NovelAIGen.zip"
