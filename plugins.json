@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-15T14:27:42.644209+00:00",
+  "generatedAt": "2026-08-27T10:59:46.617879+00:00",
   "source": {
     "name": "VCP 官方插件商店",
     "repository": "https://github.com/lioensky/VCPDistributedServer",
@@ -36,6 +36,16 @@
       "icon": "extension",
       "category": "tool",
       "downloadUrl": "https://raw.githubusercontent.com/lioensky/VCPDistributedServer/main/Plugin/AnkiManage/AnkiManage.zip"
+    },
+    {
+      "name": "BlenderBridge",
+      "displayName": "Blender 3D 桥接器",
+      "description": "VCP <-> Blender 官方 MCP Server <-> Blender Add-on 的三端桥接，外加可选的 GMR 生成式动作绑定扩展。桥接本体走双跳架构：VCP 经 Streamable HTTP 连 blender-mcp (默认 6090)，后者再经 TCP 连 Blender 内的插件 (默认 9876)，提供 59 个工具（场景查询、建模、材质、几何节点、蜡笔、渲染、截图、API 文档），采用渐进式发现避免上下文膨胀。GMR 扩展模块位于 gmr/ 子目录，提供动作生成模型的仓库登记、训练任务、推理 sidecar 管理共 15 个命令；该模块与桥接本体解耦，整目录删除后本体照常工作。",
+      "version": "1.1.0",
+      "author": "竹林夕弦 (Lucifa-sakula)",
+      "icon": "extension",
+      "category": "tool",
+      "downloadUrl": "https://raw.githubusercontent.com/lioensky/VCPDistributedServer/main/Plugin/BlenderBridge/BlenderBridge.zip"
     },
     {
       "name": "SynBiliVision",
